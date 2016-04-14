@@ -26,4 +26,3 @@ deployment/cookbooks
 .ruby-version
 manifest.yml
 /tags
-/Procfile.my
