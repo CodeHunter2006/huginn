@@ -1,4 +1,4 @@
-source 'http://ruby.taobao.org'
+source 'https://ruby.taobao.org'
 
 # Ruby 2.0 is the minimum requirement
 ruby ['2.0.0', RUBY_VERSION].max
