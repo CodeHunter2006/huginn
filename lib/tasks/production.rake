@@ -34,8 +34,13 @@ namespace :production do
   end
 
   task :start => :check do
-    puts "Startig huginn ..."
+    puts "Starting huginn ..."
     run_sv('start')
+  end
+
+  task :force_stop => :check do
+    puts "Force stopping huginn ..."
+    run_sv('force-stop')
   end
 
   task :status => :check do
